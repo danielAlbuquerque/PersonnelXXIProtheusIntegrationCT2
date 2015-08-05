@@ -1,0 +1,6 @@
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Release\SigaPersonnelIntegration.dao.dll.config
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Release\SigaPersonnelIntegration.dao.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Release\SigaPersonnelIntegration.dao.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\obj\Release\SigaPersonnelIntegration.dao.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\obj\Release\SigaPersonnelIntegration.dao.pdb

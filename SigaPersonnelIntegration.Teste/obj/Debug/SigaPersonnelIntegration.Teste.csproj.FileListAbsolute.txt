@@ -1,0 +1,6 @@
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.Teste\bin\Debug\SigaPersonnelIntegration.Teste.exe.config
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.Teste\bin\Debug\SigaPersonnelIntegration.Teste.exe
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.Teste\bin\Debug\SigaPersonnelIntegration.Teste.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.Teste\obj\Debug\SigaPersonnelIntegration.Teste.csprojResolveAssemblyReference.cache
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.Teste\obj\Debug\SigaPersonnelIntegration.Teste.exe
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.Teste\obj\Debug\SigaPersonnelIntegration.Teste.pdb

@@ -1,0 +1,7 @@
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Debug\SigaPersonnelIntegration.dao.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Debug\SigaPersonnelIntegration.dao.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\obj\Debug\SigaPersonnelIntegration.dao.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\obj\Debug\SigaPersonnelIntegration.dao.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Debug\SigaPersonnelIntegration.dao.dll.config
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.dao\obj\Debug\SigaPersonnelIntegration.dao.csprojResolveAssemblyReference.cache

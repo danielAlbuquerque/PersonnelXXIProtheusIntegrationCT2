@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amcel - Importação da folha</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel"><div id="title_status"><center>Aguarde o processamento...</center></div></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-success" role="alert" id="feedbackModal" style="display: none">
+                    </div>
+                    <div id="loader">
+                        <center>
+                            <img src="~/Content/Loader.gif" id="gif_loader" />
+                        </center>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" style="display: none" id="btn_fechar" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Amcel - Importação da folha", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Histórico", "Index", "Log")</li>
+                    <li>@Html.ActionLink("Importar arquivo", "Send", "File")</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="navbar-text"> @User.Identity.Name</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content"> 
+        <br /><br />
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Desenvolvido pelo setor de T.I da AMCEL</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+
+       
+        $('#txtUploadFile').on('change', function (e) {
+
+            $('#modal').modal({
+                keyboard: false,
+                backdrop: 'static'
+            });
+
+            var files = e.target.files;
+            if (files.length > 0) {
+ 
+
+               if (window.FormData !== undefined) {
+                   var data = new FormData();
+                   for (var x = 0; x < files.length; x++){
+                       data.append("file" + x, files[x]);
+                   }
+
+                   $.ajax({
+                       type: "POST",
+                       url: '/File/Upload',
+                       contentType: false,
+                       processData: false,
+                       data: data,
+                       success: function(result) {
+                           $("#feedback").html(result);
+                           $("#feedback").show();
+                           $("#loader").hide();
+                           $("#feedbackModal").show();
+                           $("#feedbackModal").html(result);
+                           $("#btn_fechar").show();
+                           $("#title_status").html("");
+                           $("#title_status").append("Processamento finalizado");
+                           $("file").empty();
+                       },
+                       error: function (xhr, status, p3, p4){
+                           var err = "Error " + " " + status + " " + p3 + " " + p4;
+                           if (xhr.responseText && xhr.responseText[0] == "{")
+                               err = JSON.parse(xhr.responseText).Message;
+                               console.log(err);
+                            }
+                        });
+                } else {
+                    alert("Browser inválido!");
+                  }
+             }
+        });
+    </script>
+</body>
+</html>

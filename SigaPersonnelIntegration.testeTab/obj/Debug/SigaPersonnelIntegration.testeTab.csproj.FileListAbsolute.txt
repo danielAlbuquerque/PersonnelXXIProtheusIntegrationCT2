@@ -1,0 +1,9 @@
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\bin\Debug\SigaPersonnelIntegration.testeTab.exe.config
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\bin\Debug\SigaPersonnelIntegration.testeTab.exe
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\bin\Debug\SigaPersonnelIntegration.testeTab.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\obj\Debug\SigaPersonnelIntegration.testeTab.exe
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\obj\Debug\SigaPersonnelIntegration.testeTab.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\bin\Debug\SigaPersonnelIntegration.dao.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\bin\Debug\SigaPersonnelIntegration.dao.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testeTab\obj\Debug\SigaPersonnelIntegration.testeTab.csprojResolveAssemblyReference.cache

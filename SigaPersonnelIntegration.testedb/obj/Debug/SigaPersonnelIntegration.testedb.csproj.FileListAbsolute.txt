@@ -1,0 +1,14 @@
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\SigaPersonnelIntegration.testedb.exe.config
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\obj\Debug\SigaPersonnelIntegration.testedb.csprojResolveAssemblyReference.cache
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\SigaPersonnelIntegration.testedb.exe
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\SigaPersonnelIntegration.testedb.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\EntityFramework.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\EntityFramework.xml
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\obj\Debug\SigaPersonnelIntegration.testedb.exe
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\obj\Debug\SigaPersonnelIntegration.testedb.pdb
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\SigaPersonnelIntegration.dao.dll
+C:\Users\daniel_albuquerque\Desktop\SigaPersonnelIntegration\SigaPersonnelIntegration.testedb\bin\Debug\SigaPersonnelIntegration.dao.pdb
